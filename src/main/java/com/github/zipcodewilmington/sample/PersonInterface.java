@@ -11,8 +11,7 @@ public interface PersonInterface {
 
     Integer getAge();
 
-    void setAge(Integer age);
+    void setAge(int age);
 
-    @Override
-    String toString();
+
 }
